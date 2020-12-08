@@ -35,9 +35,10 @@ function initValidation(formName) {
       $(":input").addClass("was-validated")
     }
     else{
-      //TODO
       //hide form
+      $("#myform").hide();
       //show thank you message
+      $("#successMsg").show();
     }
   });
 }
